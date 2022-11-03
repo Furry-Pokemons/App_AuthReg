@@ -42,7 +42,7 @@ namespace App_AuthReg
         private void Reg_Click(object sender, RoutedEventArgs e)
         {
             Registration registration = new Registration();
-            registration.ShowDialog();
+            registration.Show();
             this.Close();
         }
     }

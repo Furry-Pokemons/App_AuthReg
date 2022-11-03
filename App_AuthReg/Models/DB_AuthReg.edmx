@@ -85,7 +85,7 @@
           <Property Name="Login" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
           <Property Name="Password" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
         </EntityType>
-        <EntityContainer Name="teplovIEDBEntities1" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="teplovIEDBEntities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
           <EntitySet Name="User" EntityType="Self.User" />
           <FunctionImport Name="RegUser">
@@ -139,7 +139,7 @@
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="Хранилище teplovIEDBModelContainer" CdmEntityContainer="teplovIEDBEntities1">
+        <EntityContainerMapping StorageEntityContainer="Хранилище teplovIEDBModelContainer" CdmEntityContainer="teplovIEDBEntities">
           <EntitySetMapping Name="sysdiagrams">
             <EntityTypeMapping TypeName="teplovIEDBModel.sysdiagrams">
               <MappingFragment StoreEntitySet="sysdiagrams">

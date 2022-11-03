@@ -33,7 +33,6 @@ namespace App_AuthReg.Windows
             MainWindow mainWindow = new MainWindow();
             mainWindow.Show();
             this.Close();
-
         }
     }
 }
