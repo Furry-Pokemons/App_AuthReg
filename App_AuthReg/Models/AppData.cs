@@ -8,6 +8,6 @@ namespace App_AuthReg.Models
 {
     internal class AppData
     {
-        public static teplovIEDBEntities Context { get; set; } = new teplovIEDBEntities();
+        public static teplovIEDBEntities1 Context { get; set; } = new teplovIEDBEntities1();
     }
 }

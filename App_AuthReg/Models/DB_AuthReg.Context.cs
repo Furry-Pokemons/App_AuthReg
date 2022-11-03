@@ -15,10 +15,10 @@ namespace App_AuthReg.Models
     using System.Data.Entity.Core.Objects;
     using System.Linq;
     
-    public partial class teplovIEDBEntities : DbContext
+    public partial class teplovIEDBEntities1 : DbContext
     {
-        public teplovIEDBEntities()
-            : base("name=teplovIEDBEntities")
+        public teplovIEDBEntities1()
+            : base("name=teplovIEDBEntities1")
         {
         }
     
