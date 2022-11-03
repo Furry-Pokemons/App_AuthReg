@@ -140,19 +140,19 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
     <Content Include="Models\DB_AuthReg.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>DB_AuthReg.Context.cs</LastGenOutput>
       <DependentUpon>DB_AuthReg.edmx</DependentUpon>
+      <LastGenOutput>DB_AuthReg.Context.cs</LastGenOutput>
     </Content>
     <Content Include="Models\DB_AuthReg.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>DB_AuthReg.edmx</DependentUpon>
       <LastGenOutput>DB_AuthReg.cs</LastGenOutput>
     </Content>
-  </ItemGroup>
-  <ItemGroup>
-    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
